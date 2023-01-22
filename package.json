@@ -1,0 +1,19 @@
+{
+  "name": "nestjs_ci_cd_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web-start": "yarn workspace frontend dev",
+    "server": "yarn workspace backend start:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-dinesh24murali:dinesh24murali/nestjs_CI_CD_example.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
