@@ -2,7 +2,7 @@
 	"name": "frontend",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vite dev --port 5151",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
@@ -22,11 +22,16 @@
 		"eslint-plugin-svelte3": "^4.0.0",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.8.1",
+		"sass": "^1.57.1",
 		"svelte": "^3.54.0",
 		"svelte-check": "^3.0.1",
+		"svelte-preprocess": "^5.0.1",
 		"typescript": "^4.9.3",
 		"vite": "^4.0.0",
 		"vitest": "^0.25.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"axios": "^1.2.3"
+	}
 }
