@@ -6,7 +6,7 @@
   "private": true,
   "workspaces": ["frontend", "backend"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "ci-test": "yarn workspace backend test",
     "web-start": "yarn workspace frontend dev",
     "server": "yarn workspace backend start:dev"
   },
