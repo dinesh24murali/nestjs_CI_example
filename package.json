@@ -8,7 +8,8 @@
   "scripts": {
     "ci-test": "yarn workspace backend test",
     "web-start": "yarn workspace frontend dev",
-    "server": "yarn workspace backend start:dev"
+    "server": "yarn workspace backend start:dev",
+    "server:lint": "yarn workspace backend lint"
   },
   "repository": {
     "type": "git",
