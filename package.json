@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "private": true,
-  "workspaces": ["frontend", "backend"],
+  "workspaces": ["frontend", "backend", "choices"],
   "scripts": {
     "ci-test": "yarn workspace backend test",
     "web-start": "yarn workspace frontend dev",
